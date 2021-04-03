@@ -52,7 +52,7 @@
 
                     // find the guarantee of service layer 
                     const foundLayer = map.allLayers.find(function(layer) {
-                        console.log( layer.title);
+                        console.log( layer.title); 
                         return layer.title === "SPL";
                     });
     
