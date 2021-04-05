@@ -202,8 +202,10 @@
  
       onCustomWidgetBeforeUpdate(changedProperties) {
              this._props = { ...this._props, ...changedProperties };
+             console.log(["Service Level",changedProperties["servicelevel"]]);
       }
-          onCustomWidgetAfterUpdate(changedProperties) {
+          
+            onCustomWidgetAfterUpdate(changedProperties) {
       }
     }
  
