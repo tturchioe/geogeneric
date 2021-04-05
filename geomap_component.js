@@ -26,7 +26,7 @@
     
     this.appendChild(template.content.cloneNode(true));
     this._props = {};
-    let that = this;
+    let that = this ;
     
     require([
     "esri/config",
